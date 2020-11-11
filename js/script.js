@@ -28,11 +28,11 @@ var z = x * 0.21;
 // 40% per gli over 65.
 
 if (y < 18) {
-  z = z * 20 / 100
+  z = (z * 20) / 100
 }
 
 else if (y >= 65) {
-  z = z * 40 / 100
+  z = (z * 40) / 100
 };
 
 // Sulla base di queste informazioni dovrà
