@@ -21,7 +21,7 @@ console.log(y);
 
 // Il prezzo del biglietto è definito in base ai
 // km (0.21 € al km)
-var z = x * 0.21;
+var z = (x * 0.21);
 
 
 // sconto del 20% per i minorenni e del
