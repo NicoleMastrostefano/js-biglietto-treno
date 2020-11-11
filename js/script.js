@@ -27,7 +27,7 @@ var z = x * 0.21;
 // sconto del 20% per i minorenni e del
 // 40% per gli over 65.
 
-if (y = 18) {
+if (y < 18) {
   z = z * 20 / 100
 }
 
